@@ -1,0 +1,144 @@
+/* font  */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+/* root  */
+
+/* main style  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  /* border: 1px solid red; */
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  padding: 1rem 2rem;
+}
+a {
+  color: black;
+}
+
+/* navbar style  */
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  display: flex;
+  gap: 0.5rem;
+  align-items: baseline;
+}
+.links {
+  display: flex;
+  list-style-type: none;
+  gap: 1.5rem;
+}
+
+.title p {
+  font-size: 1rem;
+}
+
+/* hero  */
+.outerBox {
+  display: flex;
+  width: 75%;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  height: 75vh;
+  margin-top: 1rem;
+  gap: 1rem;
+}
+.imgBox img {
+  height: 21rem;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border: 1px solid rgba(100, 93, 93, 0.753);
+}
+
+.textBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 1.5rem;
+  /* align-items: center; */
+  /* border: 1px solid red; */
+}
+.textBox h1 {
+  font-size: 4rem;
+  font-weight: 700;
+}
+.textBox h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.textBox p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  width: 25rem;
+}
+
+.btnBox {
+  display: flex;
+  gap: 0.7rem;
+}
+.btnBox div {
+  height: 5rem;
+  width: 5rem;
+  border: 1px solid black;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+}
+.btnBox div p {
+  width: 100%;
+}
+.btnBox div p a {
+  display: block;
+  margin-left: 0.4rem;
+  font-weight: 600;
+}
+.btnBox .btn-1 {
+  background-color: #eea302;
+}
+.btnBox .btn-2 {
+  background-color: #ff3b25;
+}
+.btnBox .btn-3 {
+  background-color: #81d9db;
+}
+
+/* footer style  */
+
+footer {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  width: 90%;
+  justify-content: space-between;
+  margin-bottom: 0.8rem;
+  margin-left: 2rem;
+}
+
+.box-3 ul {
+  display: flex;
+  list-style-type: none;
+  gap: 0.5rem;
+}
